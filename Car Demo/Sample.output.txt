@@ -1,0 +1,73 @@
+=== INITIAL STATES ===
+
+Brand : Honda Civic
+Color : Black
+Speed : 0
+Fuel Level : 100
+Gear : 0
+Engine On : false
+Headlights : false
+Music Playing : false
+
+Brand : Toyota Corolla
+Color : White
+Speed : 0
+Fuel Level : 100
+Gear : 0
+Engine On : false
+Headlights : false
+Music Playing : false
+
+=== TESTING ENGINE OFF CONSTRAINTS ===
+Start the engine first.
+Engine is OFF.
+
+=== STARTING ENGINE ===
+Honda Civic engine started.
+Engine is already ON.
+
+=== CAR 1 MOVEMENTS & FEATURES ===
+Honda Civic is driving.
+Honda Civic turned left.
+Honda Civic turned right.
+Honda Civic is moving fast.
+Headlights are ON.
+Music is now playing.
+Turbo Mode Activated!
+
+=== CAR 2 INDEPENDENT ACTIONS ===
+Toyota Corolla engine started.
+Toyota Corolla is driving.
+Toyota Corolla is moving slowly.
+
+=== UPDATED STATES (INDEPENDENT OBJECTS) ===
+
+Brand : Honda Civic
+Color : Black
+Speed : 150
+Fuel Level : 65
+Gear : 3
+Engine On : true
+Headlights : true
+Music Playing : true
+
+Brand : Toyota Corolla
+Color : White
+Speed : 20
+Fuel Level : 95
+Gear : 1
+Engine On : true
+Headlights : false
+Music Playing : false
+
+=== STOPPING ENGINE ===
+Honda Civic engine stopped.
+
+Brand : Honda Civic
+Color : Black
+Speed : 0
+Fuel Level : 65
+Gear : 0
+Engine On : false
+Headlights : true
+Music Playing : true
