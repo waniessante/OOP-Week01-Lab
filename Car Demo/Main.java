@@ -20,12 +20,15 @@ public class Main {
     public static void main(String[] args) {
 
         // 1. Create two separate Car objects
+        // // Instantiation: creates a new Car object in Heap memory
         Car car1 = new Car();
+
+       // car1 is a reference variable stored in Stack memory
         Car car2 = new Car();
 
         // 2. Assign unique details using setDetails
-        car1.setDetails("Honda Civic", "Black");
-        car2.setDetails("Toyota Corolla", "White");
+         car1.setDetails( "Honda Civic", "Black");
+         car2.setDetails("Toyota Corolla", "White");
 
         // 3. Display initial states of both objects
         System.out.println("=== INITIAL STATES ===");
@@ -75,4 +78,6 @@ public class Main {
     }
 }
     
+
+
 
