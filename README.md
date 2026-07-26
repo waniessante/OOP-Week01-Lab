@@ -1,30 +1,33 @@
-# Week 01 - Object Oriented Programming Lab
-
-**University of Karachi**  
-**Department of Computer Science**  
+# Week 1 OOP Lab Assignment
 
 ## Student Information
 
-- **Student Name:** Wania Batool
-- **Seat Number:** B25110006171
+- **Name:** Wania Batool
+- **Seat No:** B25110006171
 - **Section:** A
 - **Course:** Object Oriented Programming (OOP)
-- **Lab:** Week 01
+- **Department:** Computer Science
+- **University:** University of Karachi
 
 ---
 
-# Overview
+## About this Repository
 
-This repository contains the solutions for the Week 01 Object Oriented Programming laboratory assignment.
+This repository contains my Week 1 OOP lab assignment.
 
-The assignment focuses on understanding the basic concepts of Object-Oriented Programming by designing and implementing classes, creating objects, adding attributes and methods, and representing the classes using UML diagrams.
+The purpose of this lab was to understand the basic concepts of Object-Oriented Programming by creating classes, objects, attributes, methods, constructors, and UML diagrams.
+
+The assignment contains two Java programs:
+
+- Car Demo
+- Calculator Demo
 
 ---
 
-# Repository Structure
+## Folder Structure
 
 ```
-week01_WaniaBatool_B25110006171
+Week01
 │
 ├── CarDemo
 │   ├── Car.java
@@ -43,9 +46,7 @@ week01_WaniaBatool_B25110006171
 
 # Task 1 - Car Demo
 
-## Description
-
-A Car class was created to demonstrate object-oriented programming concepts.
+In this task, I created a `Car` class and added different attributes and methods to represent a real car.
 
 ### Attributes
 
@@ -58,9 +59,8 @@ A Car class was created to demonstrate object-oriented programming concepts.
 - Headlights Status
 - Music Status
 
-### Behaviors
+### Methods
 
-- Set Car Details
 - Start Engine
 - Stop Engine
 - Drive
@@ -70,26 +70,16 @@ A Car class was created to demonstrate object-oriented programming concepts.
 - Move Right
 - Turn On Headlights
 - Play Music
-- Turbo Mode (Creative Feature)
-- Display Current State
+- Turbo Mode
+- Display State
 
-### Concepts Demonstrated
-
-- Class
-- Objects
-- Attributes
-- Methods
-- Constructor
-- Object Independence
-- State Changes
+The `Main.java` file creates two different car objects to show that each object has its own state.
 
 ---
 
 # Task 2 - Calculator Demo
 
-## Description
-
-A Calculator class was created to perform different mathematical operations.
+In this task, I created a Calculator class that performs different mathematical operations.
 
 ### Operations
 
@@ -102,74 +92,51 @@ A Calculator class was created to perform different mathematical operations.
 - Average
 - Maximum
 
-### Edge Case
-
-The calculator safely handles division by zero by displaying an error message instead of crashing.
-
-### Concepts Demonstrated
-
-- Methods
-- Parameters
-- Return Values
-- Conditional Statements
-- Mathematical Functions
+The calculator also handles division by zero by displaying an error message.
 
 ---
 
 # UML Diagrams
 
-The repository includes UML Class Diagrams for both:
+UML class diagrams for both the Car and Calculator classes are included in this repository.
 
-- Car Class
-- Calculator Class
+---
 
-The UML diagrams represent:
+# Sample Output
 
-- Class Name
+Sample output files are included for both programs.
+
+---
+
+# What I Learned
+
+After completing this lab, I learned about:
+
+- Classes and Objects
 - Attributes
 - Methods
-- Visibility (+ / -)
-
----
-
-# Sample Outputs
-
-Sample outputs for both programs are included in their respective folders.
-
----
-
-# Learning Outcomes
-
-Through this lab, the following Object-Oriented Programming concepts were practiced:
-
-- Creating Classes
-- Creating Objects
 - Constructors
-- Attributes
-- Methods
-- Object State
-- Encapsulation
+- Creating multiple objects
+- Object state
 - UML Class Diagrams
-- Object Interaction
+- Basic Java programming
 
 ---
 
-# Software Used
+## Software Used
 
 - Java
 - Visual Studio Code
 - Git
 - GitHub
-- Draw.io (diagrams.net)
+- Draw.io
 
 ---
 
-# Author
+## Author
 
 **Wania Batool**
 
 BS Computer Science
-
-Department of Computer Science
 
 University of Karachi
