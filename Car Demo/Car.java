@@ -147,7 +147,7 @@ public void turnOnHeadlights() {
 // Plays Music
 public void playMusic() {
     musicPlaying = true; 
-    System.out.pirntln("Music is now Playing.");
+    System.out.println("Music is now Playing.");
 }
 // Activates turbo mode
 public void turboMode() {
