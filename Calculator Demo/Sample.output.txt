@@ -1,0 +1,10 @@
+Addition = 15.0
+Subtraction = 12.0
+Multiplication = 28.0
+Division = 5.0
+Error: Division by zero is not allowed.
+Division = 0.0
+Modulus = 2.0
+Power = 32.0
+Average = 15.0
+Maximum = 50.0
